@@ -1,2 +1,2 @@
 # mx-template
- Template scss
+ Template Scss
