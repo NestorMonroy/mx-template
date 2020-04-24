@@ -5,13 +5,13 @@ body, input, select, textarea {
 	font-weight: _font(weight);
 	line-height: 1.75;
   
-  @include breakpoint('<=xlarge') {
-		font-size: 10pt;
-	}
+  // @include breakpoint('<=xlarge') {
+	// 	font-size: 10pt;
+	// }
 
-	@include breakpoint('<=large') {
-		font-size: 8pt;
-  }
+	// @include breakpoint('<=large') {
+	// 	font-size: 8pt;
+  // }
   
 }
 
@@ -25,8 +25,10 @@ a {
 	//border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
 
 	&:hover {
-		border-bottom-color: transparent;
-		color: _palette(orange1) !important;
+    border-bottom-color: transparent;
+    color: theme-color("orange1") !important;
+    //color: _palette(orange1) !important;
+    //_theme-color("primary") !important;
 	}
 }
 

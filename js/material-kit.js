@@ -86,7 +86,7 @@ materialKit = {
 
   initSliders: function() {
     // Sliders for demo purpose
-    var slider = document.getElementById('sliderRegular');
+    var slider = document.getElementById('sliderRegular-t');
 
     noUiSlider.create(slider, {
       start: 40,
@@ -97,7 +97,7 @@ materialKit = {
       }
     });
 
-    var slider2 = document.getElementById('sliderDouble');
+    var slider2 = document.getElementById('sliderDouble-t');
 
     noUiSlider.create(slider2, {
       start: [20, 60],
@@ -107,6 +107,37 @@ materialKit = {
         max: 100
       }
     });
+
+  var slider3 = document.getElementById('sliderRegular');
+
+    noUiSlider.create(slider3, {
+      start: 40,
+      connect: [true, false],
+      range: {
+        min: 0,
+        max: 100
+      }
+    }); 
+  
+  var slider4 = document.getElementById('sliderDouble');
+    
+    noUiSlider.create(slider4, {
+      start: [20, 60],
+      connect: true,
+      range: {
+        min: 0,
+        max: 100
+      }
+    });
+
+        
+
+    
+
+
+    
+
+
   },
 
 

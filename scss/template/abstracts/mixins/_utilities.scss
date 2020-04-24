@@ -66,7 +66,7 @@
 
 @mixin create-colored-badges(){
     &.primary-badge{
-        @include badges-color($brand-primary);
+        @include badges-color(red);
     }
     &.info-badge {
         @include badges-color($brand-info);
@@ -83,11 +83,84 @@
     &.rose-badge{
       @include badges-color($brand-rose);
     }
+    &.ctpe1-badge{
+      @include badges-color($brand-ctpe-1);
+    }
+    &.ctpe2-badge{
+      @include badges-color($brand-ctpe-2);
+    }
+    &.ctpe3-badge{
+      @include badges-color($brand-ctpe-3);
+    }
+    &.ctpe4-badge{
+      @include badges-color($brand-ctpe-4);
+    }
+    &.ctp1-badge{
+      @include badges-color($brand-ctp-1);
+    }
+    &.ctp2-badge{
+      @include badges-color($brand-ctp-2);
+    }
+    &.ctp3-badge{
+      @include badges-color($brand-ctp-3);
+    }
+    &.ctp4-badge{
+      @include badges-color($brand-ctp-4);
+    }
+    &.ctp5-badge{
+      @include badges-color($brand-ctp-5);
+    }
+    &.cts1-badge{
+      @include badges-color($brand-cts-1);
+    }
+    &.cts2-badge{
+      @include badges-color($brand-cts-2);
+    }
+    &.cts3-badge{
+      @include badges-color($brand-cts-3);
+    }
+    &.cts4-badge{
+      @include badges-color($brand-cts-4);
+    }
+    &.cts5-badge{
+      @include badges-color($brand-cts-5);
+    }
+    &.ctt1-badge{
+      @include badges-color($brand-ctt-1);
+    }
+    &.ctt2-badge{
+      @include badges-color($brand-ctt-2);
+    }
+    &.ctt3-badge{
+      @include badges-color($brand-ctt-3);
+    }
+    &.ctt4-badge{
+      @include badges-color($brand-ctt-4);
+    }
+    &.ctt5-badge{
+      @include badges-color($brand-ctp-5);
+    }
+    &.ctf1-badge{
+      @include badges-color($brand-ctf-1);
+    }
+    &.ctf2-badge{
+      @include badges-color($brand-ctf-2);
+    }
+    &.ctf3-badge{
+      @include badges-color($brand-ctf-3);
+    }
+    &.ctf4-badge{
+      @include badges-color($brand-ctf-4);
+    }
+    &.ctf5-badge{
+      @include badges-color($brand-ctf-5);
+    }
+  
 }
 
 @mixin badge-color() {
     &.badge-primary{
-        background-color: $brand-primary;
+        background-color: $brand-ctt-1;
     }
     &.badge-info {
         background-color: $brand-info;
@@ -107,4 +180,78 @@
     &.badge-default{
         background-color: $gray-light;
     }
+    &.badge-ctpe1{
+      background-color: $brand-ctpe-1;
+    }
+    &.badge-ctpe2{
+      background-color: $brand-ctpe-2;
+    }
+    &.badge-ctpe3{
+      background-color: $brand-ctpe-3;
+    }
+    &.badge-ctpe4{
+      background-color: $brand-ctpe-4;
+    }
+    &.badge-ctp1{
+      background-color: $brand-ctp-1;
+    }
+    &.badge-ctp2{
+      background-color: $brand-ctp-2;
+    }
+    &.badge-ctp3{
+      background-color: $brand-ctp-3;
+    }
+    &.badge-ctp4{
+      background-color: $brand-ctp-4;
+    }
+    &.badge-ctp5{
+      background-color: $brand-ctp-5;
+    }
+    &.badge-cts1{
+      background-color: $brand-cts-1;
+    }
+    &.badge-cts2{
+      background-color: $brand-cts-2;
+    }
+    &.badge-cts3{
+      background-color: $brand-cts-3;
+    }
+    &.badge-cts4{
+      background-color: $brand-cts-4;
+    }
+    &.badge-cts5{
+      background-color: $brand-cts-5;
+    }
+
+    &.badge-ctt1{
+      background-color: $brand-ctt-1;
+    }
+    &.badge-ctt2{
+      background-color: $brand-ctt-2;
+    }
+    &.badge-ctt3{
+      background-color: $brand-ctt-3;
+    }
+    &.badge-ctt4{
+      background-color: $brand-ctt-4;
+    }
+    &.badge-ctt5{
+      background-color: $brand-ctt-5;
+    }
+    &.badge-ctf1{
+      background-color: $brand-ctf-1;
+    }
+    &.badge-ctf2{
+      background-color: $brand-ctf-2;
+    }
+    &.badge-ctf3{
+      background-color: $brand-ctf-3;
+    }
+    &.badge-ctf4{
+      background-color: $brand-ctf-4;
+    }
+    &.badge-ctf5{
+      background-color: $brand-ctf-5;
+    }
+
 }

@@ -1,4 +1,4 @@
-// alert-variations("", $brand-primary)
+// alert-variations("", $brand-ctt-1)
 @mixin alert-variations($component, $selector-suffix, $brand-default) {
   @include generic-variations($component, $selector-suffix, $brand-default, "alert-variations-content", null);
 }
@@ -79,7 +79,7 @@
   }
   &#{$component}-primary#{$selector-suffix} {
     $args-primary: map-merge($args, (
-            variation-color: $brand-primary,
+            variation-color: $brand-ctt-1,
             variation-color-text: $mdb-text-color-light
     ));
     @include call-variations-content-mixin($args-primary);

@@ -19,7 +19,7 @@ $icon-color: rgba(0,0,0,0.5) !default;
 
 $mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
 $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
-$bmd-label-color-focus: $brand-primary !default;
+$bmd-label-color-focus: $brand-ctt-1 !default;
 $bmd-invalid-underline: $brand-danger !default;
 $bmd-readonly-underline: $input-border-color !default;
 
@@ -96,14 +96,6 @@ $pale-bg:                    #F9F7F3 !default;
 
 $font-color:                 #66615b !default;
 
-$brand-default:     #cecece !default;
-$brand-primary:     white !default;
-$brand-success:     $green !default;
-$brand-danger:      $red !default;
-$brand-warning:     $orange !default;
-$brand-info:        $cyan !default;
-$brand-rose:        $pink !default;
-
 $black-color:           #3C4858 !default;
 
 // Dropdowns
@@ -121,7 +113,7 @@ $bmd-switch-width: 2.125rem !default; // 34px
 $bmd-switch-height: .875rem !default; // 14px
 $bmd-switch-handle-size: 1.25rem !default; // 20px (was 18px)
 
-$bmd-switch-handle-checked-bg: $brand-primary !default;
+$bmd-switch-handle-checked-bg: $brand-ctt-1 !default;
 $bmd-switch-handle-unchecked-bg: #f1f1f1 !default;
 $bmd-switch-handle-disabled-bg: #bdbdbd !default;
 $bmd-switch-unchecked-bg: $gray-lighter !default;
@@ -142,7 +134,7 @@ $bmd-radio-ripple-offset: 1em !default;
 $bmd-radio-label-padding: .3125rem !default; // 5px
 
 $bmd-radio-color-off: $bmd-label-color-inner-focus !default;
-$bmd-radio-color-on: $brand-primary !default;
+$bmd-radio-color-on: $brand-ctt-1 !default;
 $bmd-radio-color-disabled: $gray-lighter; //
 $bmd-radio-color-disabled-inverse: rgba(
   $white,
@@ -153,7 +145,7 @@ $white-color: #fff !default;
 $navbar-color: #555 !default;
 $pills-color: $navbar-color !default;
 $black-color: #3C4858 !default;
-$link-color: $brand-primary;
+$link-color: $brand-ctt-1;
 $white-transparent: rgba($white-color, .8);
 $transparent: transparent;
 
@@ -166,7 +158,7 @@ $tooltip-font-size: 0.75rem !default;
 
 
 // Background colors add .. Nestor 
-$bg-primary: $brand-primary;
+$bg-primary: $brand-ctt-1;
 $bg-danger: $brand-danger;
 $bg-warning: $brand-warning;
 $bg-info: $brand-info;
@@ -283,7 +275,7 @@ $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
 $mdb-checkbox-size: 20px !default;
 $mdb-checkbox-animation-ripple: 500ms !default;
 $mdb-checkbox-animation-check: 0.3s !default;
-$mdb-checkbox-checked-color: $brand-primary !default;
+$mdb-checkbox-checked-color: $brand-ctt-1 !default;
 
 $mdb-checkbox-label-color: $mdb-label-color !default;
 $mdb-checkbox-border-color: $mdb-label-color-toggle-focus !default;
@@ -291,7 +283,7 @@ $mdb-checkbox-border-color: $mdb-label-color-toggle-focus !default;
 // Radio:
 $mdb-radio-label-color: $mdb-label-color !default;
 $mdb-radio-color-off: $mdb-label-color-toggle-focus !default;
-$mdb-radio-color-on: $brand-primary !default;
+$mdb-radio-color-on: $brand-ctt-1 !default;
 
 // stylelint-disable
 $white:    #fff !default;
@@ -344,7 +336,32 @@ $colors: map-merge((
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "bg-tpe-1":    $bg-ctpe-1,
+  "bg-tpe-2":    $bg-ctpe-2, 
+  "bg-tpe-3":    $bg-ctpe-3, 
+  "bg-tpe-4":    $bg-ctpe-4, 
+  "bg-tp-1":     $bg-ctp-1,
+  "bg-tp-2":     $bg-ctp-2, 
+  "bg-tp-3":     $bg-ctp-3, 
+  "bg-tp-4":     $bg-ctp-4, 
+  "bg-tp-5":     $bg-ctp-5, 
+  "bg-ts-1":     $bg-cts-1,
+  "bg-ts-2":     $bg-cts-2, 
+  "bg-ts-3":     $bg-cts-3, 
+  "bg-ts-4":     $bg-cts-4, 
+  "bg-ts-5":     $bg-cts-5, 
+  "bg-tt-1":     $bg-ctt-1,
+  "bg-tt-2":     $bg-ctt-2, 
+  "bg-tt-3":     $bg-ctt-3, 
+  "bg-tt-4":     $bg-ctt-4, 
+  "bg-tt-5":     $bg-ctt-5, 
+  "bg-tf-1":     $bg-ctf-1,
+  "bg-tf-2":     $bg-ctf-2, 
+  "bg-tf-3":     $bg-ctf-3, 
+  "bg-tf-4":     $bg-ctf-4, 
+  "bg-tf-5":     $bg-ctf-5,
+  "orange1":     $orange-1,  
 ), $colors);
 
 $primary:       $blue !default;
@@ -365,7 +382,32 @@ $theme-colors: map-merge((
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "bg-tpe-1":    $bg-ctpe-1,
+  "bg-tpe-2":    $bg-ctpe-2, 
+  "bg-tpe-3":    $bg-ctpe-3, 
+  "bg-tpe-4":    $bg-ctpe-4, 
+  "bg-tp-1":     $bg-ctp-1,
+  "bg-tp-2":     $bg-ctp-2, 
+  "bg-tp-3":     $bg-ctp-3, 
+  "bg-tp-4":     $bg-ctp-4, 
+  "bg-tp-5":     $bg-ctp-5, 
+  "bg-ts-1":     $bg-cts-1,
+  "bg-ts-2":     $bg-cts-2, 
+  "bg-ts-3":     $bg-cts-3, 
+  "bg-ts-4":     $bg-cts-4, 
+  "bg-ts-5":     $bg-cts-5, 
+  "bg-tt-1":     $bg-ctt-1,
+  "bg-tt-2":     $bg-ctt-2, 
+  "bg-tt-3":     $bg-ctt-3, 
+  "bg-tt-4":     $bg-ctt-4, 
+  "bg-tt-5":     $bg-ctt-5, 
+  "bg-tf-1":     $bg-ctf-1,
+  "bg-tf-2":     $bg-ctf-2, 
+  "bg-tf-3":     $bg-ctf-3, 
+  "bg-tf-4":     $bg-ctf-4, 
+  "bg-tf-5":     $bg-ctf-5,
+  "orange1":     $orange-1,  
 ), $theme-colors);
 // stylelint-enable
 
@@ -1110,13 +1152,14 @@ $alert-color-level:                 6 !default;
 
 // Progress bars
 
+
 $progress-height:                   1rem !default;
 $progress-font-size:                ($font-size-base * .75) !default;
 $progress-bg:                       $gray-200 !default;
 $progress-border-radius:            $border-radius !default;
 $progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1) !default;
 $progress-bar-color:                $white !default;
-$progress-bar-bg:                   theme-color("primary") !default;
+$progress-bar-bg:                   theme-color("bg-tf-5") !default;
 $progress-bar-animation-timing:     1s linear infinite !default;
 $progress-bar-transition:           width .6s ease !default;
 
@@ -1224,8 +1267,8 @@ $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 
 
-// Focus
-$bmd-label-color-focus: $brand-primary !default;
+// Focus Nestor..
+$bmd-label-color-focus: $brand-ctt-1 !default;
 $bmd-invalid-underline: $brand-danger !default;
 $bmd-readonly-underline: $input-border-color !default;
 

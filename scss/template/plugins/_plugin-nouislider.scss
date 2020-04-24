@@ -101,7 +101,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   cursor: pointer;
   border-radius: 100%;
   transition: all 0.2s ease-out;
-  border: 1px solid $brand-primary;
+  border: 1px solid $brand-ctt-1;
   background: $white-color;
   @include shadow-2dp();
 }
@@ -119,7 +119,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   cursor: pointer;
   border-radius: 100%;
   transition: all 0.2s ease-out;
-  border: 1px solid $brand-primary;
+  border: 1px solid $brand-ctt-1;
   background: $white-color;
   @include shadow-2dp();
 }
@@ -318,12 +318,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     background: #c8c8c8;
 
     & .noUi-connect{
-        background-color: $brand-primary;
+        background-color: $brand-ctt-1;
         border-radius: 4px;
     }
 
     .noUi-handle{
-        border-color: $brand-primary;
+        border-color: $brand-ctt-1;
     }
 
     &.slider-info{
@@ -371,5 +371,247 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
          .noUi-handle{
              border-color: $brand-rose;
          }
+    }
+    
+    &.slider-ctpe1{
+      & .noUi-connect{
+           background-color: $brand-ctpe-1;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctpe-1;
+       }
+    }
+
+    &.slider-ctpe2{
+      & .noUi-connect{
+           background-color: $brand-ctpe-2;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctpe-2;
+       }
+    }
+
+    &.slider-ctpe3{
+      & .noUi-connect{
+           background-color: $brand-ctpe-3;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctpe-3;
+       }
+    }
+
+    &.slider-ctpe4{
+      & .noUi-connect{
+           background-color: $brand-ctpe-4;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctpe-4;
+       }
+    }
+
+    &.slider-ctp1{
+      & .noUi-connect{
+           background-color: $brand-ctp-1;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctp-1;
+       }
+    }
+
+    &.slider-ctp2{
+      & .noUi-connect{
+           background-color: $brand-ctp-2;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctp-2;
+       }
+    }
+
+    &.slider-ctp3{
+      & .noUi-connect{
+           background-color: $brand-ctp-3;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctp-3;
+       }
+    }
+
+    &.slider-ctp4{
+      & .noUi-connect{
+           background-color: $brand-ctp-4;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctp-4;
+       }
+    }
+
+    &.slider-ctp5{
+      & .noUi-connect{
+           background-color: $brand-ctp-5;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctp-5;
+       }
+    }
+
+    &.slider-cts1{
+      & .noUi-connect{
+           background-color: $brand-cts-1;
+       }
+
+       .noUi-handle{
+           border-color: $brand-cts-1;
+       }
+    }
+
+    &.slider-cts2{
+      & .noUi-connect{
+           background-color: $brand-cts-2;
+       }
+
+       .noUi-handle{
+           border-color: $brand-cts-2;
+       }
+    }
+
+    &.slider-cts3{
+      & .noUi-connect{
+           background-color: $brand-cts-3;
+       }
+
+       .noUi-handle{
+           border-color: $brand-cts-3;
+       }
+    }
+
+    &.slider-cts4{
+      & .noUi-connect{
+           background-color: $brand-cts-4;
+       }
+
+       .noUi-handle{
+           border-color: $brand-cts-4;
+       }
+    }
+
+    &.slider-cts5{
+      & .noUi-connect{
+        background-color: $brand-cts-5;
+       }
+
+       .noUi-handle{
+           border-color: $brand-cts-5;
+       }
+    }
+
+
+    // ter
+    &.slider-ctt1{
+      & .noUi-connect{
+           background-color: $brand-ctt-1;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctt-1;
+       }
+    }
+
+    &.slider-ctt2{
+      & .noUi-connect{
+           background-color: $brand-ctt-2;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctt-2;
+       }
+    }
+
+    &.slider-ctt3{
+      & .noUi-connect{
+           background-color: $brand-ctt-3;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctt-3;
+       }
+    }
+
+    &.slider-ctt4{
+      & .noUi-connect{
+           background-color: $brand-ctt-4;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctt-4;
+       }
+    }
+
+    &.slider-ctt5{
+      & .noUi-connect{
+           background-color: $brand-ctt-5;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctt-5;
+       }
+    }
+
+    &.slider-ctf1{
+      & .noUi-connect{
+           background-color: $brand-ctf-1;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctf-1;
+       }
+    }
+
+    &.slider-ctf2{
+      & .noUi-connect{
+           background-color: $brand-ctf-2;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctf-2;
+       }
+    }
+
+    &.slider-ctf3{
+      & .noUi-connect{
+           background-color: $brand-ctf-3;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctf-3;
+       }
+    }
+
+    &.slider-ctf4{
+      & .noUi-connect{
+           background-color: $brand-ctf-4;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctf-4;
+       }
+    }
+
+    &.slider-ctf5{
+      & .noUi-connect{
+           background-color: $brand-ctf-5;
+       }
+
+       .noUi-handle{
+           border-color: $brand-ctf-5;
+       }
     }
 }

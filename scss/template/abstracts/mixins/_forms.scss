@@ -356,7 +356,7 @@
 
 @mixin create-colored-tags(){
     &.tag-primary{
-        @include tag-color($brand-primary);
+        @include tag-color($brand-ctpe-1);
     }
     &.tag-info {
         @include tag-color($brand-info);
@@ -372,6 +372,82 @@
     }
     &.tag-rose{
       @include tag-color($brand-rose);
+    }
+    &.tag-tpe1{
+      @include tag-color($brand-ctpe-1);
+    }
+    &.tag-tpe2{
+      @include tag-color($brand-ctpe-2);
+    }
+    &.tag-tpe3{
+      @include tag-color($brand-ctpe-3);
+    }
+    &.tag-tpe4{
+      @include tag-color($brand-ctpe-4);
+    }
+    //p
+    &.tag-tp1{
+      @include tag-color($brand-ctp-1);
+    }
+    &.tag-tp2{
+      @include tag-color($brand-ctp-2);
+    }
+    &.tag-tp3{
+      @include tag-color($brand-ctp-3);
+    }
+    &.tag-tp4{
+      @include tag-color($brand-ctp-4);
+    }
+    &.tag-tp5{
+      @include tag-color($brand-ctp-5);
+    }
+    //se 
+    &.tag-ts1{
+      @include tag-color($brand-cts-1);
+    }
+    &.tag-ts2{
+      @include tag-color($brand-cts-2);
+    }
+    &.tag-ts3{
+      @include tag-color($brand-cts-3);
+    }
+    &.tag-ts4{
+      @include tag-color($brand-cts-4);
+    }
+    &.tag-ts5{
+      @include tag-color($brand-cts-5);
+    }
+    // te
+    &.tag-tt1{
+      @include tag-color($brand-ctt-1);
+    }
+    &.tag-tt2{
+      @include tag-color($brand-ctt-2);
+    }
+    &.tag-tt3{
+      @include tag-color($brand-ctt-3);
+    }
+    &.tag-tt4{
+      @include tag-color($brand-ctt-4);
+    }
+    &.tag-tt5{
+      @include tag-color($brand-ctt-5);
+    }
+    // fo
+    &.tag-tf1{
+      @include tag-color($brand-ctf-1);
+    }
+    &.tag-tf2{
+      @include tag-color($brand-ctf-2);
+    }
+    &.tag-tf3{
+      @include tag-color($brand-ctf-3);
+    }
+    &.tag-tf4{
+      @include tag-color($brand-ctf-4);
+    }
+    &.tag-tf5{
+      @include tag-color($brand-ctf-5);
     }
 }
 @mixin tag-color ($color){

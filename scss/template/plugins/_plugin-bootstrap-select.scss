@@ -470,6 +470,7 @@ select.selectpicker {
 
 // Small changes
 
+
 .bootstrap-select{
     .select-with-transition{
         background: no-repeat center bottom, center calc(100% - 1px);
@@ -483,7 +484,7 @@ select.selectpicker {
     .select-with-transition,
     .btn:active,
     .btn.active{
-        background-image: linear-gradient(to top, #9c27b0 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
+        background-image: linear-gradient(to top, $brand-ctt-1 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, rgba(0, 0, 0, 0.26) 1px, transparent 1px);
     }
 
     &.show .select-with-transition{
