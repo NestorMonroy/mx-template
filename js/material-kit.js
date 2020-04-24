@@ -176,16 +176,17 @@ materialKit = {
     });
   }, 50),
 
+  // COLOR ON SCROLL
   checkScrollForTransparentNavbar: debounce(function() {
     if ($(document).scrollTop() > scroll_distance) {
       if (materialKit.misc.transparent) {
         materialKit.misc.transparent = false;
-        $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+        $('.navbar-color-on-scroll').removeClass('navbar-tt2');
       }
     } else {
       if (!materialKit.misc.transparent) {
         materialKit.misc.transparent = true;
-        $('.navbar-color-on-scroll').addClass('navbar-transparent');
+        $('.navbar-color-on-scroll').addClass('navbar-tt2');
       }
     }
   }, 17)

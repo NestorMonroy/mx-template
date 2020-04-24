@@ -1,4 +1,9 @@
 // Navs https://www.google.com/design/spec/components/tabs.html#tabs-specs
+$bmd-font-weight-base: 400;
+$bmd-inverse: rgba($white, 1) !default;
+$bmd-inverse-light: rgba($white, 0.84) !default;
+$bmd-inverse-lighter: rgba($white, 0.54) !default;
+
 
 $nav-disabled-link-color: $gray-light !default;
 $nav-disabled-link-hover-color: $gray-light !default;

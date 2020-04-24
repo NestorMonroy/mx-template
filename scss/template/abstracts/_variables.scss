@@ -2,15 +2,12 @@
 
 @import "variables/shadow";
 
-@import "variables/bootstrap-material-design-base";
 
-// Customized BS variables
 @import "variables/custom-forms";
 @import "variables/spacing";
 @import "variables/body";
 @import "variables/buttons";
 @import "variables/card";
-@import "variables/code";
 @import "variables/dropdown";
 @import "variables/forms";
 @import "variables/list-group";
@@ -36,7 +33,6 @@ $enable-shadows: true; // enable shadows, set to false to turn off shadows
 @import "variables/drawer";
 @import "variables/snackbar";
 
-@import "variables/bootstrap-material-design";
 
-@import "variables/pha-vars";
+@import "variables/mx";
 

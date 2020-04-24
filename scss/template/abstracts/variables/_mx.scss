@@ -1,18 +1,6 @@
-$gray-lighter: rgba($black, 0.12) !default;
-$gray-light: #999 !default;
-$gray-alpha: .54 !default;
-$gray: #555 !default; // spec color
-$gray-dark: rgba($black, 0.87) !default; // used for text color - others use grey-600 which is considerably lighter
 
-$bmd-font-weight-base: 400;
 
 // wondering if any of these could still be refactored out, but are definitely in use.
-$bmd-inverse: rgba($white, 1) !default;
-$bmd-inverse-light: rgba($white, 0.84) !default;
-$bmd-inverse-lighter: rgba($white, 0.54) !default;
-
-$bmd-label-color: $gray-color !default;
-$bmd-label-color-inner-focus: $gray !default; // e.g. radio label or text-muted not a control-label which is primary
 
 $border-radius-base: 3px !default;
 $border-radius-small: 2px !default;
@@ -34,6 +22,11 @@ $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
 $bmd-label-color-focus: $brand-primary !default;
 $bmd-invalid-underline: $brand-danger !default;
 $bmd-readonly-underline: $input-border-color !default;
+
+// Code
+
+$code-bg: $grey-200 !default; // #f7f7f9 !default;
+
 
 //---
 // verified in use with refactoring to v4
@@ -104,7 +97,7 @@ $pale-bg:                    #F9F7F3 !default;
 $font-color:                 #66615b !default;
 
 $brand-default:     #cecece !default;
-$brand-primary:     $purple !default;
+$brand-primary:     white !default;
 $brand-success:     $green !default;
 $brand-danger:      $red !default;
 $brand-warning:     $orange !default;
@@ -170,7 +163,9 @@ $popover-color: $navbar-color !default;
 //Tooltips
 $tooltip-font-size: 0.75rem !default;
 
-// Background colors
+
+
+// Background colors add .. Nestor 
 $bg-primary: $brand-primary;
 $bg-danger: $brand-danger;
 $bg-warning: $brand-warning;
@@ -178,6 +173,37 @@ $bg-info: $brand-info;
 $bg-rose: $brand-rose;
 $bg-success: $brand-success;
 $bg-dark: $grey-900;
+
+$bg-ctpe-1: $brand-ctpe-1;
+$bg-ctpe-2: $brand-ctpe-2;
+$bg-ctpe-3: $brand-ctpe-3;
+$bg-ctpe-4: $brand-ctpe-4;
+
+
+$bg-ctp-1:$brand-ctp-1;
+$bg-ctp-2:$brand-ctp-2;
+$bg-ctp-3:$brand-ctp-3;
+$bg-ctp-4:$brand-ctp-4;
+$bg-ctp-5:$brand-ctp-5;
+
+$bg-cts-1:$brand-cts-1;
+$bg-cts-2:$brand-cts-2;
+$bg-cts-3:$brand-cts-3;
+$bg-cts-4:$brand-cts-4;
+$bg-cts-5:$brand-cts-5;
+
+$bg-ctt-1:$brand-ctt-1;
+$bg-ctt-2:$brand-ctt-2;
+$bg-ctt-3:$brand-ctt-3;
+$bg-ctt-4:$brand-ctt-4;
+$bg-ctt-5:$brand-ctt-5;
+
+$bg-ctf-1:$brand-ctf-1;
+$bg-ctf-2:$brand-ctf-2;
+$bg-ctf-3:$brand-ctf-3;
+$bg-ctf-4:$brand-ctf-4;
+$bg-ctf-5:$brand-ctf-5;
+
 
 //Paddings
 $padding-general-y: 0.625rem !default;
@@ -267,19 +293,6 @@ $mdb-radio-label-color: $mdb-label-color !default;
 $mdb-radio-color-off: $mdb-label-color-toggle-focus !default;
 $mdb-radio-color-on: $brand-primary !default;
 
-
-/// extra 
-
-// Variables
-//
-// Variables should follow the `$component-state-property-size` formula for
-// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
-
-
-//
-// Color system
-//
-
 // stylelint-disable
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -356,6 +369,7 @@ $theme-colors: map-merge((
 ), $theme-colors);
 // stylelint-enable
 
+
 // Set a specific jump point for requesting color jumps
 $theme-color-interval:      8% !default;
 
@@ -365,6 +379,50 @@ $yiq-contrasted-threshold: 150 !default;
 // Customize the light and dark text colors for use in our YIQ color contrast function.
 $yiq-text-dark: $gray-900 !default;
 $yiq-text-light: $white !default;
+
+// Palette.
+$palette: (
+  bg:					#ffffff,
+  bg-accent:			#333333,
+  bg-alt:				#f6f6f6,
+  fg:					#585858,
+  fg-accent:			#ffffff,
+  border:				#c9c9c9,
+  border-bg:			rgba(144,144,144,0.075),
+  accent1:			#f2849e,
+  accent2:			#7ecaf6,
+  accent3:			#7bd0c1,
+  accent4:			#c75b9b,
+  accent5:			#ae85ca,
+  accent6:			#8499e7,
+  bg-tpe-1:    $bg-ctpe-1,
+  bg-tpe-2:    $bg-ctpe-2, 
+  bg-tpe-3:    $bg-ctpe-3, 
+  bg-tpe-4:    $bg-ctpe-4, 
+  bg-tp-1:     $bg-ctp-1,
+  bg-tp-2:     $bg-ctp-2, 
+  bg-tp-3:     $bg-ctp-3, 
+  bg-tp-4:     $bg-ctp-4, 
+  bg-tp-5:     $bg-ctp-5, 
+  bg-ts-1:     $bg-cts-1,
+  bg-ts-2:     $bg-cts-2, 
+  bg-ts-3:     $bg-cts-3, 
+  bg-ts-4:     $bg-cts-4, 
+  bg-ts-5:     $bg-cts-5, 
+  bg-tt-1:     $bg-ctt-1,
+  bg-tt-2:     $bg-ctt-2, 
+  bg-tt-3:     $bg-ctt-3, 
+  bg-tt-4:     $bg-ctt-4, 
+  bg-tt-5:     $bg-ctt-5, 
+  bg-tf-1:     $bg-ctf-1,
+  bg-tf-2:     $bg-ctf-2, 
+  bg-tf-3:     $bg-ctf-3, 
+  bg-tf-4:     $bg-ctf-4, 
+  bg-tf-5:     $bg-ctf-5,
+  orange1:     $orange-1,  
+
+);
+
 
 // Options
 //
@@ -1164,3 +1222,89 @@ $pre-scrollable-max-height:         340px !default;
 // Printing
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+// Focus
+$bmd-label-color-focus: $brand-primary !default;
+$bmd-invalid-underline: $brand-danger !default;
+$bmd-readonly-underline: $input-border-color !default;
+
+//---
+// verified in use with refactoring to v4
+
+//---
+//-- unverified below here
+$bmd-brand-inverse: $indigo !default;
+// Typography elements FIXME: review to see if we actually need these
+$icon-color: rgba($black, 0.5) !default;
+
+// --------------------
+// inputs
+$mdb-input-placeholder-color: #AAAAAA !default;
+$mdb-input-underline-color: #D2D2D2 !default;
+
+$mdb-input-font-size-base: 14px !default;
+$mdb-input-font-size-large: ceil(($font-size-base * 1.25)) !default; // ~20px
+$mdb-input-font-size-small: ceil(($font-size-base * 0.75)) !default; // ~12px
+
+$bmd-bmd-label-static-size-ratio: 75 / 100 !default;
+$bmd-help-size-ratio: 75 / 100 !default;
+
+$bmd-form-control-bg-repeat-y: no-repeat !default;
+$bmd-form-control-bg-position: center bottom, center calc(100% - 1px) !default;
+$bmd-form-control-bg-size: 0 100%, 100% 100% !default;
+$bmd-form-control-bg-size-active: 100% 100%, 100% 100% !default;
+
+// expandable
+$input-text-button-size: 32px !default;
+
+// sizing
+$bmd-form-line-height: 1 !default; // set as 1x font-size so that padding is easier calculated to match the spec.
+$bmd-label-top-margin-base: 1rem !default;
+
+$bmd-form-line-height-lg: 1 !default; // set as 1x font-size so that padding is easier calculated to match the spec.
+$bmd-label-top-margin-lg: 1rem !default; // 16px
+
+$bmd-form-line-height-sm: 1 !default; // set as 1x font-size so that padding is easier calculated to match the spec.
+$bmd-label-top-margin-sm: .75rem !default; // 12px
+
+$text-disabled: #a8a8a8 !default;
+$background-disabled: #eaeaea !default;
+
+$margin-base:               1.071rem !default;
+
+
+// Misc.
+$misc: (
+  z-index-base:		10000
+);
+
+// Duration.
+$duration: (
+  menu:				0.45s,
+  transition:			0.2s
+);
+
+// Size.
+$size: (
+  border-radius:		4px,
+  border-width:		1px,
+  element-height:		3em,
+  element-margin:		2em,
+  gutter:				2.5em,
+  field-gutter:		2em,
+  inner:				68em,
+  menu:				22em
+);
+
+// Font.
+$font: (
+  family:				('Source Sans Pro', Helvetica, sans-serif),
+  family-fixed:		('Courier New', monospace),
+  weight:				300,
+  weight-bold:		900,
+  weight-bold-alt:	700,
+  letter-spacing:		0.35em,
+  letter-spacing-alt:	-0.035em
+);
+

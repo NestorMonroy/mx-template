@@ -118,6 +118,7 @@
     }
   }
 
+  // Nestor Monroy add...
   .dropdown-item:hover,
   .dropdown-item:focus,
   .dropdown-item:active,
@@ -126,8 +127,8 @@
   a:hover,
   a:focus,
   a:active {
-    @include shadow-small-color($brand-primary);
-    background-color: $brand-primary !important;
+    @include shadow-small-color($ctt-5);
+    background-color: $ctt-5 !important;
     color: $white !important;
   }
 }
@@ -141,7 +142,7 @@
       display: none;
     }
 
-    ~ .dropdown-menu {
+     .dropdown-menu {
       &.dropdown-menu-top-left,
       &.dropdown-menu-top-right {
         bottom: $bmd-btn-icon-size; // push up the bottom of the menu the height of the button

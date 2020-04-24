@@ -1,5 +1,9 @@
 // Forms
 
+$bmd-label-color: $gray-color !default;
+$bmd-label-color-inner-focus: $gray !default; // e.g. radio label or text-muted not a control-label which is primary
+
+
 //
 $input-bg: rgba($black, 0) !default; // #fff !default;
 $input-bg-disabled: rgba($black, 0) !default; // $gray-lighter !default;

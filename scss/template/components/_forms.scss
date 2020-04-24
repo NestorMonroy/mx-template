@@ -20,6 +20,7 @@ form {
   }
 }
 
+
 // -----
 // Inputs
 //
@@ -49,7 +50,7 @@ form {
       color: $mdb-input-placeholder-color;
       font-weight: 400;
       font-size: $mdb-input-font-size-base;
-}
+  }
 
   .has-white &{
       @include material-placeholder(){
@@ -89,6 +90,7 @@ form {
   }
 }
 
+
 // -----
 // State coloring: default, success, info, warning, danger
 //
@@ -124,6 +126,12 @@ form {
 .has-rose {
   @include bmd-form-color($brand-rose, $brand-rose, $brand-rose, $input-border-color);
 }
+// Nestor Monroy add
+.has-ctpe-1 {
+  @include bmd-form-color($brand-ctpe-1, $brand-ctpe-1, $brand-ctpe-1, $input-border-color);
+}
+
+
 
 // Reference http://www.google.com/design/spec/components/text-fields.html
 // MDL implementation: http://www.getmdl.io/components/index.html#textfields-section

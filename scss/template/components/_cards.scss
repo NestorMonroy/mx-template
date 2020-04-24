@@ -209,27 +209,27 @@
       background: linear-gradient(60deg, $pink-400, $pink-700);
     }
 
-    .card-header-teamp1,
-    &.bg-teamp1,
-    &.card-rotate.bg-teamp1 .front,
-    &.card-rotate.bg-teamp1 .back{
-      background: linear-gradient(60deg, $color-team-primary-1, $color-team-primary-3);
-    }
+    // .card-header-teamp1,
+    // &.bg-teamp1,
+    // &.card-rotate.bg-teamp1 .front,
+    // &.card-rotate.bg-teamp1 .back{
+    //   background: linear-gradient(60deg, $color-team-primary-1, $color-team-primary-3);
+    // }
 
-    .card-header-teamp2,
-    &.bg-teamp2,
-    &.card-rotate.bg-teamp2 .front,
-    &.card-rotate.bg-teamp2 .back{
-      background: linear-gradient(60deg, $color-team-primary-2, $color-team-primary-2);
-    }
+    // .card-header-teamp2,
+    // &.bg-teamp2,
+    // &.card-rotate.bg-teamp2 .front,
+    // &.card-rotate.bg-teamp2 .back{
+    //   background: linear-gradient(60deg, $color-team-primary-2, $color-team-primary-2);
+    // }
 
 
-    .card-header-teamp3,
-    &.bg-teamp3,
-    &.card-rotate.bg-teamp3 .front,
-    &.card-rotate.bg-teamp3 .back{
-      background: linear-gradient(60deg, $color-team-primary-3, $color-team-primary-3);
-    }
+    // .card-header-teamp3,
+    // &.bg-teamp3,
+    // &.card-rotate.bg-teamp3 .front,
+    // &.card-rotate.bg-teamp3 .back{
+    //   background: linear-gradient(60deg, $color-team-primary-3, $color-team-primary-3);
+    // }
 
 
     .card-header-primary{
@@ -251,9 +251,9 @@
       @include shadow-big-color($brand-info);
     }
 
-    .card-header-teamp1{
-      @include shadow-big-color($bg-teamp1);
-    }
+    // .card-header-teamcp1{
+    //   @include shadow-big-color($bg-teamcp1);
+    // }
 
     .card-header-success{
       @include shadow-big-color($brand-success);

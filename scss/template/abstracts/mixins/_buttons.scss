@@ -124,36 +124,78 @@
   &.btn-danger {
     @include bmd-flat-button-variant($btn-danger-bg);
   }
-  &.btn-teamp1 {
-    @include bmd-flat-button-variant($btn-team-p1-bg);
+  &.btn-tpe1 {
+    @include bmd-flat-button-variant($btn-tpe-1-bg);
   }
-  &.btn-teamp2 {
-    @include bmd-flat-button-variant($btn-team-p2-bg);
+  &.btn-tpe2 {
+    @include bmd-flat-button-variant($btn-tpe-2-bg);
   }
-  &.btn-teamp3 {
-    @include bmd-flat-button-variant($btn-team-p3-bg);
+  &.btn-tpe3 {
+    @include bmd-flat-button-variant($btn-tpe-3-bg);
   }
-
-  &.btn-teams1 {
-    @include bmd-flat-button-variant($btn-team-s1-bg);
+  &.btn-tpe4 {
+    @include bmd-flat-button-variant($btn-tpe-4-bg);
   }
-  &.btn-teams2 {
-    @include bmd-flat-button-variant($btn-team-s2-bg);
+  &.btn-tp1 {
+    @include bmd-flat-button-variant($btn-tp-1-bg);
   }
-  &.btn-teams3 {
-    @include bmd-flat-button-variant($btn-team-s3-bg);
+  &.btn-tp2 {
+    @include bmd-flat-button-variant($btn-tp-2-bg);
   }
-  
-  &.btn-teamt1 {
-    @include bmd-flat-button-variant($btn-team-t1-bg);
+  &.btn-tp3 {
+    @include bmd-flat-button-variant($btn-tp-3-bg);
   }
-  &.btn-teamt2 {
-    @include bmd-flat-button-variant($btn-team-t2-bg);
+  &.btn-tp4 {
+    @include bmd-flat-button-variant($btn-tp-4-bg);
   }
-  &.btn-teamt3 {
-    @include bmd-flat-button-variant($btn-team-t3-bg);
+  &.btn-tp5 {
+    @include bmd-flat-button-variant($btn-tp-5-bg);
   }
-  
+  &.btn-ts1 {
+    @include bmd-flat-button-variant($btn-ts-1-bg);
+  }
+  &.btn-ts2 {
+    @include bmd-flat-button-variant($btn-ts-2-bg);
+  }
+  &.btn-ts3 {
+    @include bmd-flat-button-variant($btn-ts-3-bg);
+  }
+  &.btn-ts4 {
+    @include bmd-flat-button-variant($btn-ts-4-bg);
+  }
+  &.btn-ts5 {
+    @include bmd-flat-button-variant($btn-ts-5-bg);
+  }
+  &.btn-tt1 {
+    @include bmd-flat-button-variant($btn-tt-1-bg);
+  }
+  &.btn-tt2 {
+    @include bmd-flat-button-variant($btn-tt-2-bg);
+  }
+  &.btn-tt3 {
+    @include bmd-flat-button-variant($btn-tt-3-bg);
+  }
+  &.btn-tt4 {
+    @include bmd-flat-button-variant($btn-tt-4-bg);
+  }
+  &.btn-tt5 {
+    @include bmd-flat-button-variant($btn-tt-5-bg);
+  }
+  &.btn-tf1 {
+    @include bmd-flat-button-variant($btn-tf-1-bg);
+  }
+  &.btn-tf2 {
+    @include bmd-flat-button-variant($btn-tf-2-bg);
+  }
+  &.btn-tf3 {
+    @include bmd-flat-button-variant($btn-tf-3-bg);
+  }
+  &.btn-tf4 {
+    @include bmd-flat-button-variant($btn-tf-4-bg);
+  }
+  &.btn-tf5 {
+    @include bmd-flat-button-variant($btn-tf-5-bg);
+  }
 
 }
 
@@ -164,15 +206,30 @@
   &.btn-outline-info,
   &.btn-outline-success,
   &.btn-outline-warning,
-  &.btn-outline-teamp1,
-  &.btn-outline-teamp2,
-  &.btn-outline-teamp3,
-  &.btn-outline-teams1,
-  &.btn-outline-teams2,
-  &.btn-outline-teams3,
-  &.btn-outline-teamt1,
-  &.btn-outline-teamt2,
-  &.btn-outline-teamt3,
+  &.btn-outline-tpe1,
+  &.btn-outline-tpe2,
+  &.btn-outline-tpe3,
+  &.btn-outline-tpe4,
+  &.btn-outline-tp1,
+  &.btn-outline-tp2,
+  &.btn-outline-tp3,
+  &.btn-outline-tp4,
+  &.btn-outline-tp5,
+  &.btn-outline-ts1,
+  &.btn-outline-ts2,
+  &.btn-outline-ts3,
+  &.btn-outline-ts4,
+  &.btn-outline-ts5,
+  &.btn-outline-tt1,
+  &.btn-outline-tt2,
+  &.btn-outline-tt3,
+  &.btn-outline-tt4,
+  &.btn-outline-tt5,
+  &.btn-outline-tf1,
+  &.btn-outline-tf2,
+  &.btn-outline-tf3,
+  &.btn-outline-tf4,
+  &.btn-outline-tf5,
   &.btn-outline-danger {
     border-color: currentColor;
     border-style: solid;
@@ -198,36 +255,83 @@
   &.btn-outline-warning {
     @include bmd-flat-button-variant($btn-warning-bg, $btn-warning-bg, $btn-warning-bg, $btn-warning-bg);
   }
-  &.btn-outline-teamp1 {
-    @include bmd-flat-button-variant($btn-team-p1-bg, $btn-team-p1-bg, $btn-team-p1-bg, $btn-team-p1-bg);
+
+  &.btn-outline-tpe1 {
+    @include bmd-flat-button-variant($btn-tpe-1-bg, $btn-tpe-1-bg, $btn-tpe-1-bg, $btn-tpe-1-bg);
   }
-  &.btn-outline-teamp2 {
-    @include bmd-flat-button-variant($btn-team-p2-bg, $btn-team-p2-bg, $btn-team-p2-bg, $btn-team-p2-bg);
+  &.btn-outline-tpe2 {
+    @include bmd-flat-button-variant($btn-tpe-2-bg, $btn-tpe-2-bg, $btn-tpe-2-bg, $btn-tpe-2-bg);
   }
-  &.btn-outline-teamp3 {
-    @include bmd-flat-button-variant($btn-team-p3-bg, $btn-team-p3-bg, $btn-team-p3-bg, $btn-team-p3-bg);
+  &.btn-outline-tpe3 {
+    @include bmd-flat-button-variant($btn-tpe-3-bg, $btn-tpe-3-bg, $btn-tpe-3-bg, $btn-tpe-3-bg);
   }
-  &.btn-outline-teams1 {
-    @include bmd-flat-button-variant($btn-team-s1-bg, $btn-team-s1-bg, $btn-team-s1-bg, $btn-team-s1-bg);
+  &.btn-outline-tpe4 {
+    @include bmd-flat-button-variant($btn-tpe-4-bg, $btn-tpe-4-bg, $btn-tpe-4-bg, $btn-tpe-4-bg);
   }
-  &.btn-outline-teams2 {
-    @include bmd-flat-button-variant($btn-team-s2-bg, $btn-team-s2-bg, $btn-team-s2-bg, $btn-team-s2-bg);
+  &.btn-outline-tp1 {
+    @include bmd-flat-button-variant($btn-tp-1-bg, $btn-tp-1-bg, $btn-tp-1-bg, $btn-tp-1-bg);
   }
-  &.btn-outline-teams3 {
-    @include bmd-flat-button-variant($btn-team-s3-bg, $btn-team-s3-bg, $btn-team-s3-bg, $btn-team-s3-bg);
+  &.btn-outline-tp2 {
+    @include bmd-flat-button-variant($btn-tp-2-bg, $btn-tp-2-bg, $btn-tp-2-bg, $btn-tp-2-bg);
   }
-  &.btn-outline-teamt1 {
-    @include bmd-flat-button-variant($btn-team-t1-bg, $btn-team-t1-bg, $btn-team-t1-bg, $btn-team-t1-bg);
+  &.btn-outline-tp3 {
+    @include bmd-flat-button-variant($btn-tp-3-bg, $btn-tp-3-bg, $btn-tp-3-bg, $btn-tp-3-bg);
   }
-  &.btn-outline-teamt2 {
-    @include bmd-flat-button-variant($btn-team-t2-bg, $btn-team-t2-bg, $btn-team-t2-bg, $btn-team-t2-bg);
+  &.btn-outline-tp4 {
+    @include bmd-flat-button-variant($btn-tp-4-bg, $btn-tp-4-bg, $btn-tp-4-bg, $btn-tp-4-bg);
   }
-  &.btn-outline-teamt3 {
-    @include bmd-flat-button-variant($btn-team-t3-bg, $btn-team-t3-bg, $btn-team-t3-bg, $btn-team-t3-bg);
+  &.btn-outline-tp5 {
+    @include bmd-flat-button-variant($btn-tp-5-bg, $btn-tp-5-bg, $btn-tp-5-bg, $btn-tp-5-bg);
+  }
+  &.btn-outline-ts1 {
+    @include bmd-flat-button-variant($btn-ts-1-bg, $btn-ts-1-bg, $btn-ts-1-bg, $btn-ts-1-bg);
+  }
+  &.btn-outline-ts2 {
+    @include bmd-flat-button-variant($btn-ts-2-bg, $btn-ts-2-bg, $btn-ts-2-bg, $btn-ts-2-bg);
+  }
+  &.btn-outline-ts3 {
+    @include bmd-flat-button-variant($btn-ts-3-bg, $btn-ts-3-bg, $btn-ts-3-bg, $btn-ts-3-bg);
+  }
+  &.btn-outline-ts4 {
+    @include bmd-flat-button-variant($btn-ts-4-bg, $btn-ts-4-bg, $btn-ts-4-bg, $btn-ts-4-bg);
+  }
+  &.btn-outline-ts5 {
+    @include bmd-flat-button-variant($btn-ts-5-bg, $btn-ts-5-bg, $btn-ts-5-bg, $btn-ts-5-bg);
+  }
+  &.btn-outline-tt1 {
+    @include bmd-flat-button-variant($btn-tt-1-bg, $btn-tt-1-bg, $btn-tt-1-bg, $btn-tt-1-bg);
+  }
+  &.btn-outline-tt2 {
+    @include bmd-flat-button-variant($btn-tt-2-bg, $btn-tt-2-bg, $btn-tt-2-bg, $btn-tt-2-bg);
+  }
+  &.btn-outline-tt3 {
+    @include bmd-flat-button-variant($btn-tt-3-bg, $btn-tt-3-bg, $btn-tt-3-bg, $btn-tt-3-bg);
+  }
+  &.btn-outline-tt4 {
+    @include bmd-flat-button-variant($btn-tt-4-bg, $btn-tt-4-bg, $btn-tt-4-bg, $btn-tt-4-bg);
+  }
+  &.btn-outline-tt5 {
+    @include bmd-flat-button-variant($btn-tt-5-bg, $btn-tt-5-bg, $btn-tt-5-bg, $btn-tt-5-bg);
+  }
+  &.btn-outline-tf1 {
+    @include bmd-flat-button-variant($btn-tf-1-bg, $btn-tf-1-bg, $btn-tf-1-bg, $btn-tf-1-bg);
+  }
+  &.btn-outline-tf2 {
+    @include bmd-flat-button-variant($btn-tf-2-bg, $btn-tf-2-bg, $btn-tf-2-bg, $btn-tf-2-bg);
+  }
+  &.btn-outline-tf3 {
+    @include bmd-flat-button-variant($btn-tf-3-bg, $btn-tf-3-bg, $btn-tf-3-bg, $btn-tf-3-bg);
+  }
+  &.btn-outline-tf4 {
+    @include bmd-flat-button-variant($btn-tf-4-bg, $btn-tf-4-bg, $btn-tf-4-bg, $btn-tf-4-bg);
+  }
+  &.btn-outline-tf5 {
+    @include bmd-flat-button-variant($btn-tf-5-bg, $btn-tf-5-bg, $btn-tf-5-bg, $btn-tf-5-bg);
   }
   &.btn-outline-danger {
     @include bmd-flat-button-variant($btn-danger-bg, $btn-danger-bg, $btn-danger-bg, $btn-danger-bg);
   }
+
 }
 
 @mixin bmd-raised-button-variant($color, $background, $border) {
@@ -280,43 +384,78 @@
   &.btn-primary {
     @include bmd-raised-button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border-color);
   }
-  &,
-  &.btn-teamp1 {
-    @include bmd-raised-button-variant($btn-team-p1-color, $btn-team-p1-bg, $btn-team-p1-border-color);
+  &.btn-tpe1 {
+    @include bmd-raised-button-variant($btn-tpe-1-color, $btn-tpe-1-bg, $btn-tpe-1-border-color);
   }
-  &,
-  &.btn-teamp2 {
-    @include bmd-raised-button-variant($btn-team-p2-color, $btn-team-p2-bg, $btn-team-p2-border-color);
+  &.btn-tpe2 {
+    @include bmd-raised-button-variant($btn-tpe-2-color, $btn-tpe-2-bg, $btn-tpe-2-border-color);
   }
-  &,
-  &.btn-teamp3 {
-    @include bmd-raised-button-variant($btn-team-p3-color, $btn-team-p3-bg, $btn-team-p3-border-color);
+  &.btn-tpe3 {
+    @include bmd-raised-button-variant($btn-tpe-3-color, $btn-tpe-3-bg, $btn-tpe-3-border-color);
   }
-  &,
-  &.btn-teams1 {
-    @include bmd-raised-button-variant($btn-team-s1-color, $btn-team-s1-bg, $btn-team-s1-border-color);
+  &.btn-tpe4 {
+    @include bmd-raised-button-variant($btn-tpe-4-color, $btn-tpe-4-bg, $btn-tpe-4-border-color);
   }
-  &,
-  &.btn-teams2 {
-    @include bmd-raised-button-variant($btn-team-s2-color, $btn-team-s2-bg, $btn-team-s2-border-color);
+  &.btn-tp1 {
+    @include bmd-raised-button-variant($btn-tp-1-color, $btn-tp-1-bg, $btn-tp-1-border-color);
   }
-  &,
-  &.btn-teams3 {
-    @include bmd-raised-button-variant($btn-team-s3-color, $btn-team-s3-bg, $btn-team-s3-border-color);
+  &.btn-tp2 {
+    @include bmd-raised-button-variant($btn-tp-2-color, $btn-tp-2-bg, $btn-tp-2-border-color);
   }
-  &,
-  &.btn-teamt1 {
-    @include bmd-raised-button-variant($btn-team-t1-color, $btn-team-t1-bg, $btn-team-t1-border-color);
+  &.btn-tp3 {
+    @include bmd-raised-button-variant($btn-tp-3-color, $btn-tp-3-bg, $btn-tp-3-border-color);
   }
-  &,
-  &.btn-teamt2 {
-    @include bmd-raised-button-variant($btn-team-t2-color, $btn-team-t2-bg, $btn-team-t2-border-color);
+  &.btn-tp4 {
+    @include bmd-raised-button-variant($btn-tp-4-color, $btn-tp-4-bg, $btn-tp-4-border-color);
   }
-  &,
-  &.btn-teamt3 {
-    @include bmd-raised-button-variant($btn-team-t3-color, $btn-team-t3-bg, $btn-team-t3-border-color);
+  &.btn-tp5 {
+    @include bmd-raised-button-variant($btn-tp-5-color, $btn-tp-5-bg, $btn-tp-5-border-color);
   }
-  &,
+  &.btn-ts1 {
+    @include bmd-raised-button-variant($btn-ts-1-color, $btn-ts-1-bg, $btn-ts-1-border-color);
+  }
+  &.btn-ts2 {
+    @include bmd-raised-button-variant($btn-ts-2-color, $btn-ts-2-bg, $btn-ts-2-border-color);
+  }
+  &.btn-ts3 {
+    @include bmd-raised-button-variant($btn-ts-3-color, $btn-ts-3-bg, $btn-ts-3-border-color);
+  }
+  &.btn-ts4 {
+    @include bmd-raised-button-variant($btn-ts-4-color, $btn-ts-4-bg, $btn-ts-4-border-color);
+  }
+  &.btn-ts5 {
+    @include bmd-raised-button-variant($btn-ts-5-color, $btn-ts-5-bg, $btn-ts-5-border-color);
+  }
+  &.btn-tt1 {
+    @include bmd-raised-button-variant($btn-tt-1-color, $btn-tt-1-bg, $btn-tt-1-border-color);
+  }
+  &.btn-tt2 {
+    @include bmd-raised-button-variant($btn-tt-2-color, $btn-tt-2-bg, $btn-tt-2-border-color);
+  }
+  &.btn-tt3 {
+    @include bmd-raised-button-variant($btn-tt-3-color, $btn-tt-3-bg, $btn-tt-3-border-color);
+  }
+  &.btn-tt4 {
+    @include bmd-raised-button-variant($btn-tt-4-color, $btn-tt-4-bg, $btn-tt-4-border-color);
+  }
+  &.btn-tt5 {
+    @include bmd-raised-button-variant($btn-tt-5-color, $btn-tt-5-bg, $btn-tt-5-border-color);
+  }
+  &.btn-tf1 {
+    @include bmd-raised-button-variant($btn-tf-1-color, $btn-tf-1-bg, $btn-tf-1-border-color);
+  }
+  &.btn-tf2 {
+    @include bmd-raised-button-variant($btn-tf-2-color, $btn-tf-2-bg, $btn-tf-2-border-color);
+  }
+  &.btn-tf3 {
+    @include bmd-raised-button-variant($btn-tf-3-color, $btn-tf-3-bg, $btn-tf-3-border-color);
+  }
+  &.btn-tf4 {
+    @include bmd-raised-button-variant($btn-tf-4-color, $btn-tf-4-bg, $btn-tf-4-border-color);
+  }
+  &.btn-tf5 {
+    @include bmd-raised-button-variant($btn-tf-5-color, $btn-tf-5-bg, $btn-tf-5-border-color);
+  }
   &.btn-secondary {
     @include bmd-raised-button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border-color);
   }
@@ -335,12 +474,11 @@
   &.btn-rose {
     @include bmd-raised-button-variant($btn-rose-color, $btn-rose-bg, $btn-rose-border-color);
   }
-  &,
   &.btn-default{
     @include bmd-raised-button-variant($btn-default-color, $btn-default-bg, $btn-default-border-color);
   }
   &.btn-team {
-    @include bmd-raised-button-variant($bg-team-secondary-dark, $btn-default-bg, $btn-default-border-color);
+    @include bmd-raised-button-variant($bg-primary, $btn-default-bg, $btn-default-border-color);
   }
 }
 

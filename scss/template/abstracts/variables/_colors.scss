@@ -1,9 +1,28 @@
 
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+$gray-lighter: rgba($black, 0.12) !default;
+$gray-light: #999 !default;
+$gray-alpha: .54 !default;
+$gray: #555 !default; // spec color
+$gray-dark: rgba($black, 0.87) !default; // used for text color - others use grey-600 which is considerably lighter
+
 $red-50: #ffebee !default;
 $red-100: #ffcdd2 !default;
 $red-200: #ef9a9a !default;
 $red-300: #e57373 !default;
-$red-400: #ef5350 !default;
+$red-400: #db6a68 !default;
 $red-500: #f44336 !default;
 $red-600: #e53935 !default;
 $red-700: #d32f2f !default;
@@ -15,26 +34,38 @@ $red-a400: #ff1744 !default;
 $red-a700: #d50000 !default;
 $red: $red-500 !default;
 
+$orange-1:  #7c2a2a  !default;
 
-$color-primary: #9bc9aa;
-$color-primary-light-1: #89e2a7;
-$color-team-primary-1:   #1e6161 !default;
-$color-team-primary-2:   #295555 !default;
-$color-team-primary-3:    #415c5c !default;
-$color-team-secundary-1: #2c4a66 !default;
-$color-team-secundary-2: #104272 !default ;
-$color-team-secundary-3: #354758 !default ;
-$color-team-tertiary-1: #1f5f54 !default;
-$color-team-tertiary-2: #2e5851 !default;
-$color-team-tertiary-3: #1a2e2b !default;
+$ctpe-1: #207561 !default;
+$ctpe-2: #589167 !default;
+$ctpe-3: #a0cc78 !default;
+$ctpe-4: #da4302 !default;
+
+$ctp-1:#b93801 !default;
+$ctp-2:#a12e00 !default;
+$ctp-3:#a33205 !default;
+$ctp-4:#742605 !default;
+$ctp-5:#642104 !default;
+
+$cts-1:#2e3a70 !default;
+$cts-2:#1c2c74 !default;
+$cts-3:#000f53 !default;
+$cts-4:#0b1231 !default;
+$cts-5:#000518 !default;
+
+$ctt-1:#2f5a54 !default;
+$ctt-2:#1f3b37 !default;
+$ctt-3:#0b2e29 !default;
+$ctt-4:#012e27 !default;
+$ctt-5:#011d19 !default;
+
+$ctf-1:#3b0101 !default;
+$ctf-2:#5a121b !default;
+$ctf-3:#630718 !default;
+$ctf-4:#7e2e3c !default;
+$ctf-5:#863a47 !default;
 
 $color-shadow-1:  #b87802;
-
-$color-tertiary-slight: #f2f6f5;
-$color-tertiary-light: #c8dad3;
-$color-tertiary-medium: #93b5b3;
-$color-tertiary-dark: #63707e;
-$color-tertiary-dark1: #252929;
 
 $pink-50: #fce4ec !default;
 $pink-100: #f8bbd0 !default;
@@ -336,20 +367,43 @@ $white: #ffffff; $rgb-white: "255,255,255" !default;
 
 /*     brand Colors              */
 
-$brand-primary:              $purple-500 !default;
+$brand-primary:              $ctpe-1 !default;
 $brand-info:                 $cyan-500 !default;
 $brand-success:              $green-500 !default;
 $brand-warning:              $orange-500 !default;
 $brand-danger:               $red-500 !default;
 $brand-rose:                 $pink-500 !default;
 $brand-inverse:              $black-color !default;
-$brand-team-p1:             $color-team-primary-1 !default;
-$brand-team-p2:             $color-team-primary-2 !default;
-$brand-team-p3:             $color-team-primary-3 !default;
-$brand-team-s1:             $color-team-secundary-1 !default;
-$brand-team-s2:             $color-team-secundary-2 !default;
-$brand-team-s3:             $color-team-secundary-3 !default;
-$brand-team-t1:             $color-team-tertiary-1 !default;
-$brand-team-t2:             $color-team-tertiary-2 !default;
-$brand-team-t3:             $color-team-tertiary-3 !default;
 
+/* Nestor */
+
+$brand-ctpe-1: $ctpe-1 !default;
+$brand-ctpe-2: $ctpe-2 !default;
+$brand-ctpe-3: $ctpe-3 !default;
+$brand-ctpe-4: $ctpe-4 !default;
+
+
+$brand-ctp-1: $ctp-1 !default;
+$brand-ctp-2: $ctp-2 !default;
+$brand-ctp-3: $ctp-3 !default;
+$brand-ctp-4: $ctp-4 !default;
+$brand-ctp-5: $ctp-5 !default;
+
+$brand-cts-1: $cts-1 !default;
+$brand-cts-2: $cts-2 !default;
+$brand-cts-3: $cts-3 !default;
+$brand-cts-4: $cts-4 !default;
+$brand-cts-5: $cts-5 !default;
+
+$brand-ctt-1: $ctt-1 !default;
+$brand-ctt-2: $ctt-2 !default;
+$brand-ctt-3: $ctt-3 !default;
+$brand-ctt-4: $ctt-4 !default;
+$brand-ctt-5: $ctt-5 !default;
+
+
+$brand-ctf-1: $ctf-1 !default;
+$brand-ctf-2: $ctf-2 !default;
+$brand-ctf-3: $ctf-3 !default;
+$brand-ctf-4: $ctf-4 !default;
+$brand-ctf-5: $ctf-5 !default;

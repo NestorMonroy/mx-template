@@ -135,58 +135,249 @@
     &.bg-danger{
         @include navbar-colors($bg-danger, $white-color);
     }
-
+    
     &.bg-success{
-        @include navbar-colors($bg-success, $white-color);
+      @include navbar-colors($bg-success, $white-color);
     }
     &.bg-dark{
-        @include navbar-colors($grey-900, $white-color);
+      @include navbar-colors($grey-900, $white-color);
     }
     &.bg-team{
-      @include navbar-colors($bg-team, $white-color);
+      @include navbar-colors($ctt-5, $white-color);
     }
-    
-    &.bg-teamp1{
-      @include navbar-colors($bg-teamp1, $white-color);
+    &.bg-tpe1{
+      @include navbar-colors($bg-ctpe-1, $white-color);
     }
-
-    &.bg-teamp2{
-      @include navbar-colors($bg-teamp2, $white-color);
+    &.bg-tpe2{
+      @include navbar-colors($bg-ctpe-2, $white-color);
     }
-
-    &.bg-teamp3{
-      @include navbar-colors($bg-teamp3, $white-color);
+    &.bg-tpe3{
+      @include navbar-colors($bg-ctpe-3, $white-color);
     }
-
-    &.bg-teams1{
-      @include navbar-colors($bg-teams1, $white-color);
+    &.bg-tpe4{
+      @include navbar-colors($bg-ctpe-4, $white-color);
     }
-
-    &.bg-teams2{
-      @include navbar-colors($bg-teams2, $white-color);
+    &.bg-tp1{
+      @include navbar-colors($bg-ctp-1, $white-color);
     }
-
-    &.bg-teams3{
-      @include navbar-colors($bg-teams3, $white-color);
+    &.bg-tp2{
+      @include navbar-colors($bg-ctp-2, $white-color);
     }
-    &.bg-teamt1{
-      @include navbar-colors($bg-teamt1, $white-color);
+    &.bg-tp3{
+      @include navbar-colors($bg-ctp-3, $white-color);
     }
-
-    &.bg-teamt2{
-      @include navbar-colors($bg-teamt2, $white-color);
+    &.bg-tp4{
+      @include navbar-colors($bg-ctp-4, $white-color);
+    }
+    &.bg-tp5{
+      @include navbar-colors($bg-ctp-5, $white-color);
     }
 
-    &.bg-teamt3{
-      @include navbar-colors($bg-teamt3, $white-color);
+    &.bg-ts1{
+      @include navbar-colors($bg-cts-1, $white-color);
+    }
+    &.bg-ts2{
+      @include navbar-colors($bg-cts-2, $white-color);
+    }
+    &.bg-ts3{
+      @include navbar-colors($bg-cts-3, $white-color);
+    }
+    &.bg-ts4{
+      @include navbar-colors($bg-cts-4, $white-color);
+    }
+    &.bg-ts5{
+      @include navbar-colors($bg-cts-5, $white-color);
     }
 
+    &.bg-tt1{
+      @include navbar-colors($bg-ctt-1, $white-color);
+    }
+    &.bg-tt2{
+      @include navbar-colors($bg-ctt-2, $white-color);
+    }
+    &.bg-tt3{
+      @include navbar-colors($bg-ctt-3, $white-color);
+    }
+    &.bg-tt4{
+      @include navbar-colors($bg-ctt-4, $white-color);
+    }
+    &.bg-tt5{
+      @include navbar-colors($bg-ctt-5, $white-color);
+    }
+    &.bg-tf1{
+      @include navbar-colors($bg-ctf-1, $white-color);
+    }
+    &.bg-tf2{
+      @include navbar-colors($bg-ctf-2, $white-color);
+    }
+    &.bg-tf3{
+      @include navbar-colors($bg-ctf-3, $white-color);
+    }
+    &.bg-tf4{
+      @include navbar-colors($bg-ctf-4, $white-color);
+    }
+    &.bg-tf5{
+      @include navbar-colors($bg-ctf-5, $white-color);
+    }
+
+    // navbar-color-on-scroll nestor add ...    
     &.navbar-transparent{
         background-color: transparent !important;
         box-shadow: none;
         padding-top: 25px;
         color: $white-color;
     }
+    &.navbar-tpe1{
+      background-color: $bg-ctpe-1 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tpe2{
+      background-color: $bg-ctpe-2 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tpe3{
+      background-color: $bg-ctpe-3 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tpe4{
+      background-color: $bg-ctpe-4 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+
+    &.navbar-tp1{
+      background-color: $bg-ctp-1 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tp2{
+      background-color: $bg-ctp-2 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tp3{
+      background-color: $bg-ctp-3 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tp4{
+      background-color: $bg-ctp-4 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tp5{
+      background-color: $bg-ctp-5 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+
+    &.navbar-ts1{
+      background-color: $bg-cts-1 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-ts2{
+      background-color: $bg-cts-2 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-ts3{
+      background-color: $bg-cts-3 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-ts4{
+      background-color: $bg-cts-4 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-ts5{
+      background-color: $bg-cts-5 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+
+
+    &.navbar-tt1{
+      background-color: $bg-ctt-1 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tt2{
+      background-color: $bg-ctt-2 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tt3{
+      background-color: $bg-ctt-3 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tt4{
+      background-color: $bg-ctt-4 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tt5{
+      background-color: $bg-ctt-5 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+
+
+    &.navbar-tf1{
+      background-color: $bg-ctf-1 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tf2{
+      background-color: $bg-ctf-2 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tf3{
+      background-color: $bg-ctf-3 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tf4{
+      background-color: $bg-ctf-4 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+    &.navbar-tf5{
+      background-color: $bg-ctf-5 !important;
+      box-shadow: none;
+      padding: 0.625rem 0;
+      color: $white-color;
+    }
+
 
 
 }
@@ -252,6 +443,7 @@
     transform: translate3d(0, -55px, 0); }
 
 }
+
 @media print {
   #header {
     display: none; } }

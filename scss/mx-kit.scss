@@ -21,13 +21,9 @@
   xxsmall:  ( null,    360px  )
 ));
 
-@import 'template/base/reset';
 @import 'template/base/reboot';
-@import 'template/base/page';
 @import 'template/base/typography';
 
-
-@import 'template/components/row-pha';
 @import 'template/components/section-pha';
 @import 'template/components/icon-pha';
 @import 'template/components/list-pha';
@@ -37,7 +33,7 @@
 @import 'template/components/box-pha';
 @import 'template/components/image-pha';
 @import 'template/components/table-pha';
-@import 'template/components/button-pha';
+
 @import 'template/components/tiles-pha';
 
 @import 'template/components/header-pha';
